@@ -1,0 +1,98 @@
+.container {
+  padding: 40px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 40px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.meta {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  color: #6c717b;
+  margin-bottom: 10px;
+}
+
+.ratingText {
+  font-size: 14px;
+}
+
+.location {
+  font-size: 14px;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.imageWrapper {
+  position: relative;
+  height: 180px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.image {
+  object-fit: cover;
+}
+
+.description {
+  color: #6c717b;
+  margin-bottom: 20px;
+}
+
+.features {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 30px;
+}
+
+.features span {
+  background: #f2f4f7;
+  padding: 6px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.sidebar {
+  background: #f7f7f7;
+  padding: 20px;
+  border-radius: 16px;
+  height: fit-content;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.button {
+  padding: 12px;
+  background: #829b91;
+  color: white;
+  border: none;
+  border-radius: 200px;
+  cursor: pointer;
+}

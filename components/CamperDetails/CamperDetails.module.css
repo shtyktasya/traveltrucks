@@ -1,0 +1,280 @@
+.container {
+  margin: 0 auto;
+  padding: 64px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 88px;
+}
+
+.topSection {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 24px;
+}
+.box {
+  border-radius: 16px;
+  padding: 24px;
+  width: 650px;
+  height: 100%;
+  background: #f7f7f7;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #101828;
+  margin-bottom: 8px;
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+  color: #101828;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 16px;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #475467;
+}
+.vehicleDetail {
+  margin: auto;
+}
+
+.vehicleTitle {
+  margin-bottom: 16px;
+}
+
+.pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.pill {
+  background: #f2f4f7;
+  padding: 12px 18px;
+  border-radius: 100px;
+  mix-blend-mode: multiply;
+  font-size: 16px;
+  font-weight: 500;
+  color: #101828;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.icon {
+  width: 16px;
+  height: 16px;
+}
+
+.divider {
+  height: 1px;
+  background: #e4e7ec;
+  margin: 16px 0;
+}
+
+.detailsTable {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  row-gap: 12px;
+  column-gap: 16px;
+  font-size: 14px;
+  color: #101828;
+}
+
+.detailsTable div:nth-child(even) {
+  text-align: right;
+}
+
+.reviewsBookingContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 24px;
+}
+.reviewsBookingWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 48px;
+}
+
+.reviewsSection {
+  width: 623px;
+  display: flex;
+  align-items: flex-start;
+
+  flex-direction: column;
+  gap: 24px;
+}
+.review {
+  background: #f7f7f7;
+  padding: 16px;
+  border-radius: 16px;
+  display: flex;
+
+  flex-direction: column;
+  gap: 16px;
+}
+
+.reviewHeader {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: white;
+  color: #829b91;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.reviewInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.reviewInfo strong {
+  font-size: 16px;
+  color: #101828;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #475467;
+  margin: 0;
+}
+
+.bookingForm {
+  border: 1px solid #dadde1;
+  padding: 44px;
+  border-radius: 16px;
+  width: 641px;
+
+  background: white;
+}
+
+.bookingForm h2 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 8px;
+  color: #101828;
+}
+.bookingText {
+  color: #6c717b;
+  margin-bottom: 24px;
+}
+.bookingForm input {
+  width: 527px;
+  padding: 18px 337px 18px 18px;
+  margin-bottom: 14px;
+  border: none;
+  background-color: #f7f7f7;
+  border-radius: 12px;
+  font-size: 16px;
+}
+
+.bookingForm input::placeholder {
+  color: #6c717b;
+}
+
+.bookingForm input:placeholder-shown {
+  color: #101828;
+}
+
+.bookButton {
+  width: 527px;
+  padding: 16px 60px;
+  background: #829b91;
+  color: white;
+  border: none;
+  border-radius: 200px;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.bookButton:hover {
+  background: #6d7b75;
+}
+
+.galleryWrapper {
+  width: 638px;
+  height: 676px;
+}
+
+.mainSwiper {
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+
+.mainImage {
+  position: relative;
+  width: 638;
+  height: 505;
+  background: #f2f4f7;
+}
+
+.image {
+  object-fit: cover;
+}
+
+.thumb {
+  position: relative;
+  width: 135px;
+  height: 145px;
+  border-radius: 8px;
+  overflow: hidden;
+  opacity: 0.6;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.thumb:hover,
+.swiper-slide-thumb-active .thumb {
+  opacity: 1;
+}
